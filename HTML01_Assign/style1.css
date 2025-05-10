@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    color: black;
+}
+header {
+    background: brown;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white; 
+    text-decoration: none;
+    font-weight: bolder;
+}
+section {
+    padding: 2rem;
+    text-align: center;
+}
+footer {
+    background: #333;
+    color: white;
+    font-weight: bolder;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+form input, form textarea, form button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+form button {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
